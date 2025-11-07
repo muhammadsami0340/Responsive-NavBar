@@ -1,0 +1,91 @@
+body{
+    background-image: url(./Assets/vecteezy_ai-generated-vibrant-green-plant-leaves_38498179.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    /* background-color: blanchedalmond; */
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+.logo{
+    /* background-color: rgb(164, 255, 255); */
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.list{
+    width: 60%;
+    /* background-color: rgb(255, 182, 87); */
+}
+
+/* .menu{
+   display: none;
+} */
+
+.li-icons{
+    /* display: none !important; */
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    /* .menu{
+        display: block;
+    } */
+    /* ul{
+        display: none;
+    } */
+    .list{
+        width: 80%;
+        display: flex;
+        /* justify-content: right; */
+    }
+
+    .li-icons{
+        display: block  !important;
+    }
+    .li-text{
+        display: none;
+    }
+    .logo{
+        padding: 0px;
+    }
+    nav{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-text{
+        display: none;
+    }
+}
